@@ -1,0 +1,317 @@
+2024-02-12 14:07:44.628  INFO 4500 --- [restartedMain] com.app.Application                      : Starting Application using Java 17.0.10 on DESKTOP-GPMVTT8 with PID 4500 (C:\Users\sahil\Desktop\CDAC\PROJECT\FINAL\EmployeeDeptExam\target\classes started by sahil in C:\Users\sahil\Desktop\CDAC\PROJECT\FINAL\EmployeeDeptExam)
+2024-02-12 14:07:44.638  INFO 4500 --- [restartedMain] com.app.Application                      : No active profile set, falling back to 1 default profile: "default"
+2024-02-12 14:07:44.733  INFO 4500 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-02-12 14:07:44.733  INFO 4500 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-02-12 14:07:46.090  INFO 4500 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-12 14:07:46.273  INFO 4500 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 167 ms. Found 8 JPA repository interfaces.
+2024-02-12 14:07:47.245  INFO 4500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-02-12 14:07:47.262  INFO 4500 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-12 14:07:47.262  INFO 4500 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2024-02-12 14:07:47.401  INFO 4500 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-12 14:07:47.401  INFO 4500 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2667 ms
+2024-02-12 14:07:47.662  INFO 4500 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-12 14:07:47.754  INFO 4500 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2024-02-12 14:07:48.060  INFO 4500 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-02-12 14:07:48.229  INFO 4500 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-02-12 14:07:48.634  INFO 4500 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-02-12 14:07:48.715  INFO 4500 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-02-12 14:07:49.997  INFO 4500 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-02-12 14:07:50.009  INFO 4500 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-12 14:07:51.302  INFO 4500 --- [restartedMain] com.app.service.ImageServiceImpl         : folder alrdy exists !
+2024-02-12 14:07:52.386  INFO 4500 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@43a160c6, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@64a5cc77, org.springframework.security.web.context.SecurityContextPersistenceFilter@740cad23, org.springframework.security.web.header.HeaderWriterFilter@75bd43c2, org.springframework.web.filter.CorsFilter@399203ac, org.springframework.security.web.authentication.logout.LogoutFilter@1ee75fdb, com.app.filters.JWTRequestFilter@35b860cb, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6624ead3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@194535e7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@415e02c6, org.springframework.security.web.session.SessionManagementFilter@743ff3d, org.springframework.security.web.access.ExceptionTranslationFilter@5204eab7, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@46fa8ddd]
+2024-02-12 14:07:52.890  INFO 4500 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-02-12 14:07:52.947  INFO 4500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-02-12 14:07:52.963  INFO 4500 --- [restartedMain] com.app.Application                      : Started Application in 8.879 seconds (JVM running for 10.575)
+2024-02-12 14:09:49.241  INFO 4500 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-12 14:09:49.242  INFO 4500 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-12 14:09:49.243  INFO 4500 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-02-12 14:09:49.287  INFO 4500 --- [http-nio-8080-exec-1] com.app.filters.JWTRequestFilter         : in once per request filter
+2024-02-12 14:09:49.287 ERROR 4500 --- [http-nio-8080-exec-1] com.app.filters.JWTRequestFilter         : Request header DOES NOT contain a Bearer Token
+2024-02-12 14:09:49.310  INFO 4500 --- [http-nio-8080-exec-1] com.app.controller.BuildingController    : com.app.controller.BuildingController in getListOfBuildings
+2024-02-12 14:09:49.322  INFO 4500 --- [http-nio-8080-exec-1] com.app.service.BuildingServiceImpl      : com.app.service.BuildingServiceImpl in getAllBuildings
+2024-02-12 14:09:49.592  INFO 4500 --- [http-nio-8080-exec-3] com.app.filters.JWTRequestFilter         : in once per request filter
+2024-02-12 14:09:49.592  INFO 4500 --- [http-nio-8080-exec-4] com.app.filters.JWTRequestFilter         : in once per request filter
+2024-02-12 14:09:49.593 ERROR 4500 --- [http-nio-8080-exec-4] com.app.filters.JWTRequestFilter         : Request header DOES NOT contain a Bearer Token
+2024-02-12 14:09:49.594  INFO 4500 --- [http-nio-8080-exec-5] com.app.filters.JWTRequestFilter         : in once per request filter
+2024-02-12 14:09:49.595 ERROR 4500 --- [http-nio-8080-exec-5] com.app.filters.JWTRequestFilter         : Request header DOES NOT contain a Bearer Token
+2024-02-12 14:09:49.593 ERROR 4500 --- [http-nio-8080-exec-3] com.app.filters.JWTRequestFilter         : Request header DOES NOT contain a Bearer Token
+2024-02-12 14:09:49.597  INFO 4500 --- [http-nio-8080-exec-8] com.app.filters.JWTRequestFilter         : in once per request filter
+2024-02-12 14:09:49.597  INFO 4500 --- [http-nio-8080-exec-2] com.app.filters.JWTRequestFilter         : in once per request filter
+2024-02-12 14:09:49.598 ERROR 4500 --- [http-nio-8080-exec-2] com.app.filters.JWTRequestFilter         : Request header DOES NOT contain a Bearer Token
+2024-02-12 14:09:49.598 ERROR 4500 --- [http-nio-8080-exec-8] com.app.filters.JWTRequestFilter         : Request header DOES NOT contain a Bearer Token
+2024-02-12 14:09:49.598  INFO 4500 --- [http-nio-8080-exec-6] com.app.filters.JWTRequestFilter         : in once per request filter
+2024-02-12 14:09:49.598  INFO 4500 --- [http-nio-8080-exec-7] com.app.filters.JWTRequestFilter         : in once per request filter
+2024-02-12 14:09:49.598 ERROR 4500 --- [http-nio-8080-exec-6] com.app.filters.JWTRequestFilter         : Request header DOES NOT contain a Bearer Token
+2024-02-12 14:09:49.599 ERROR 4500 --- [http-nio-8080-exec-7] com.app.filters.JWTRequestFilter         : Request header DOES NOT contain a Bearer Token
+2024-02-12 14:09:49.608  INFO 4500 --- [http-nio-8080-exec-3] com.app.controller.ImageController       : in img download
+2024-02-12 14:09:49.608  INFO 4500 --- [http-nio-8080-exec-8] com.app.controller.ImageController       : in img download
+2024-02-12 14:09:49.608  INFO 4500 --- [http-nio-8080-exec-7] com.app.controller.ImageController       : in img download
+2024-02-12 14:09:49.609  INFO 4500 --- [http-nio-8080-exec-7] com.app.controller.ImageController       : componentTypebuilding
+2024-02-12 14:09:49.609  INFO 4500 --- [http-nio-8080-exec-8] com.app.controller.ImageController       : componentTypebuilding
+2024-02-12 14:09:49.609  INFO 4500 --- [http-nio-8080-exec-5] com.app.controller.ImageController       : in img download
+2024-02-12 14:09:49.609  INFO 4500 --- [http-nio-8080-exec-3] com.app.controller.ImageController       : componentTypebuilding
+2024-02-12 14:09:49.609  INFO 4500 --- [http-nio-8080-exec-8] com.app.controller.ImageController       : componentId7
+2024-02-12 14:09:49.609  INFO 4500 --- [http-nio-8080-exec-4] com.app.controller.ImageController       : in img download
+2024-02-12 14:09:49.609  INFO 4500 --- [http-nio-8080-exec-3] com.app.controller.ImageController       : componentId2
+2024-02-12 14:09:49.609  INFO 4500 --- [http-nio-8080-exec-4] com.app.controller.ImageController       : componentTypebuilding
+2024-02-12 14:09:49.609  INFO 4500 --- [http-nio-8080-exec-4] com.app.controller.ImageController       : componentId3
+2024-02-12 14:09:49.608  INFO 4500 --- [http-nio-8080-exec-6] com.app.controller.ImageController       : in img download
+2024-02-12 14:09:49.609  INFO 4500 --- [http-nio-8080-exec-6] com.app.controller.ImageController       : componentTypebuilding
+2024-02-12 14:09:49.609  INFO 4500 --- [http-nio-8080-exec-6] com.app.controller.ImageController       : componentId5
+2024-02-12 14:09:49.609  INFO 4500 --- [http-nio-8080-exec-7] com.app.controller.ImageController       : componentId6
+2024-02-12 14:09:49.609  INFO 4500 --- [http-nio-8080-exec-5] com.app.controller.ImageController       : componentTypebuilding
+2024-02-12 14:09:49.611  INFO 4500 --- [http-nio-8080-exec-5] com.app.controller.ImageController       : componentId4
+2024-02-12 14:09:49.670  INFO 4500 --- [http-nio-8080-exec-9] com.app.filters.JWTRequestFilter         : in once per request filter
+2024-02-12 14:09:49.670 ERROR 4500 --- [http-nio-8080-exec-9] com.app.filters.JWTRequestFilter         : Request header DOES NOT contain a Bearer Token
+2024-02-12 14:09:49.671  INFO 4500 --- [http-nio-8080-exec-10] com.app.filters.JWTRequestFilter         : in once per request filter
+2024-02-12 14:09:49.671 ERROR 4500 --- [http-nio-8080-exec-10] com.app.filters.JWTRequestFilter         : Request header DOES NOT contain a Bearer Token
+2024-02-12 14:09:49.673  INFO 4500 --- [http-nio-8080-exec-9] com.app.controller.ImageController       : in img download
+2024-02-12 14:09:49.673  INFO 4500 --- [http-nio-8080-exec-10] com.app.controller.ImageController       : in img download
+2024-02-12 14:09:49.673  INFO 4500 --- [http-nio-8080-exec-9] com.app.controller.ImageController       : componentTypebuilding
+2024-02-12 14:09:49.673  INFO 4500 --- [http-nio-8080-exec-10] com.app.controller.ImageController       : componentTypebuilding
+2024-02-12 14:09:49.673  INFO 4500 --- [http-nio-8080-exec-9] com.app.controller.ImageController       : componentId8
+2024-02-12 14:09:49.673  INFO 4500 --- [http-nio-8080-exec-10] com.app.controller.ImageController       : componentId9
+2024-02-12 14:09:49.675  INFO 4500 --- [http-nio-8080-exec-1] com.app.filters.JWTRequestFilter         : in once per request filter
+2024-02-12 14:09:49.676 ERROR 4500 --- [http-nio-8080-exec-1] com.app.filters.JWTRequestFilter         : Request header DOES NOT contain a Bearer Token
+2024-02-12 14:09:49.681  INFO 4500 --- [http-nio-8080-exec-1] com.app.controller.ImageController       : in img download13
+2024-02-12 14:09:49.684  INFO 4500 --- [http-nio-8080-exec-10] com.app.filters.JWTRequestFilter         : in once per request filter
+2024-02-12 14:09:49.684 ERROR 4500 --- [http-nio-8080-exec-10] com.app.filters.JWTRequestFilter         : Request header DOES NOT contain a Bearer Token
+2024-02-12 14:09:49.685  INFO 4500 --- [http-nio-8080-exec-10] com.app.controller.ImageController       : in img download20
+2024-02-12 14:09:49.686  INFO 4500 --- [http-nio-8080-exec-3] com.app.filters.JWTRequestFilter         : in once per request filter
+2024-02-12 14:09:49.686 ERROR 4500 --- [http-nio-8080-exec-3] com.app.filters.JWTRequestFilter         : Request header DOES NOT contain a Bearer Token
+2024-02-12 14:09:49.688  INFO 4500 --- [http-nio-8080-exec-3] com.app.controller.ImageController       : in img download5
+2024-02-12 14:09:49.690  INFO 4500 --- [http-nio-8080-exec-6] com.app.filters.JWTRequestFilter         : in once per request filter
+2024-02-12 14:09:49.690 ERROR 4500 --- [http-nio-8080-exec-6] com.app.filters.JWTRequestFilter         : Request header DOES NOT contain a Bearer Token
+2024-02-12 14:09:49.691  INFO 4500 --- [http-nio-8080-exec-7] com.app.filters.JWTRequestFilter         : in once per request filter
+2024-02-12 14:09:49.692 ERROR 4500 --- [http-nio-8080-exec-7] com.app.filters.JWTRequestFilter         : Request header DOES NOT contain a Bearer Token
+2024-02-12 14:09:49.692  INFO 4500 --- [http-nio-8080-exec-6] com.app.controller.ImageController       : in img download24
+2024-02-12 14:09:49.693  INFO 4500 --- [http-nio-8080-exec-7] com.app.controller.ImageController       : in img download32
+2024-02-12 14:09:49.698  INFO 4500 --- [http-nio-8080-exec-4] com.app.filters.JWTRequestFilter         : in once per request filter
+2024-02-12 14:09:49.698 ERROR 4500 --- [http-nio-8080-exec-4] com.app.filters.JWTRequestFilter         : Request header DOES NOT contain a Bearer Token
+2024-02-12 14:09:49.700  INFO 4500 --- [http-nio-8080-exec-4] com.app.controller.ImageController       : in img download18
+2024-02-12 14:09:49.738  INFO 4500 --- [http-nio-8080-exec-8] com.app.filters.JWTRequestFilter         : in once per request filter
+2024-02-12 14:09:49.738 ERROR 4500 --- [http-nio-8080-exec-8] com.app.filters.JWTRequestFilter         : Request header DOES NOT contain a Bearer Token
+2024-02-12 14:09:49.739  INFO 4500 --- [http-nio-8080-exec-8] com.app.controller.ImageController       : in img download34
+2024-02-12 14:10:06.651  INFO 4500 --- [http-nio-8080-exec-10] com.app.filters.JWTRequestFilter         : in once per request filter
+2024-02-12 14:10:06.652 ERROR 4500 --- [http-nio-8080-exec-10] com.app.filters.JWTRequestFilter         : Request header DOES NOT contain a Bearer Token
+2024-02-12 14:10:06.782  INFO 4500 --- [http-nio-8080-exec-10] c.app.controller.SignInSignUpController  : auth token UsernamePasswordAuthenticationToken [Principal=shubham@gmail.com, Credentials=[PROTECTED], Authenticated=false, Details=null, Granted Authorities=[]]
+2024-02-12 14:10:33.733  INFO 4500 --- [http-nio-8080-exec-9] com.app.filters.JWTRequestFilter         : in once per request filter
+2024-02-12 14:10:33.734 ERROR 4500 --- [http-nio-8080-exec-9] com.app.filters.JWTRequestFilter         : Request header DOES NOT contain a Bearer Token
+2024-02-12 14:10:33.942  WARN 4500 --- [http-nio-8080-exec-9] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1062, SQLState: 23000
+2024-02-12 14:10:33.942 ERROR 4500 --- [http-nio-8080-exec-9] o.h.engine.jdbc.spi.SqlExceptionHelper   : Duplicate entry 'shubham@gmail.com' for key 'users.UK_6dotkott2kjsp8vw4d0m25fb7'
+2024-02-12 14:10:38.373  INFO 4500 --- [http-nio-8080-exec-4] com.app.filters.JWTRequestFilter         : in once per request filter
+2024-02-12 14:10:38.374 ERROR 4500 --- [http-nio-8080-exec-4] com.app.filters.JWTRequestFilter         : Request header DOES NOT contain a Bearer Token
+2024-02-12 14:10:38.375  INFO 4500 --- [http-nio-8080-exec-4] com.app.controller.BuildingController    : com.app.controller.BuildingController in getListOfBuildings
+2024-02-12 14:10:38.376  INFO 4500 --- [http-nio-8080-exec-4] com.app.service.BuildingServiceImpl      : com.app.service.BuildingServiceImpl in getAllBuildings
+2024-02-12 14:10:38.437  INFO 4500 --- [http-nio-8080-exec-2] com.app.filters.JWTRequestFilter         : in once per request filter
+2024-02-12 14:10:38.438 ERROR 4500 --- [http-nio-8080-exec-2] com.app.filters.JWTRequestFilter         : Request header DOES NOT contain a Bearer Token
+2024-02-12 14:10:38.438  INFO 4500 --- [http-nio-8080-exec-3] com.app.filters.JWTRequestFilter         : in once per request filter
+2024-02-12 14:10:38.438 ERROR 4500 --- [http-nio-8080-exec-3] com.app.filters.JWTRequestFilter         : Request header DOES NOT contain a Bearer Token
+2024-02-12 14:10:38.439  INFO 4500 --- [http-nio-8080-exec-1] com.app.filters.JWTRequestFilter         : in once per request filter
+2024-02-12 14:10:38.439 ERROR 4500 --- [http-nio-8080-exec-1] com.app.filters.JWTRequestFilter         : Request header DOES NOT contain a Bearer Token
+2024-02-12 14:10:38.440  INFO 4500 --- [http-nio-8080-exec-3] com.app.controller.ImageController       : in img download
+2024-02-12 14:10:38.440  INFO 4500 --- [http-nio-8080-exec-3] com.app.controller.ImageController       : componentTypebuilding
+2024-02-12 14:10:38.440  INFO 4500 --- [http-nio-8080-exec-3] com.app.controller.ImageController       : componentId2
+2024-02-12 14:10:38.440  INFO 4500 --- [http-nio-8080-exec-10] com.app.filters.JWTRequestFilter         : in once per request filter
+2024-02-12 14:10:38.441 ERROR 4500 --- [http-nio-8080-exec-10] com.app.filters.JWTRequestFilter         : Request header DOES NOT contain a Bearer Token
+2024-02-12 14:10:38.441  INFO 4500 --- [http-nio-8080-exec-8] com.app.filters.JWTRequestFilter         : in once per request filter
+2024-02-12 14:10:38.441 ERROR 4500 --- [http-nio-8080-exec-8] com.app.filters.JWTRequestFilter         : Request header DOES NOT contain a Bearer Token
+2024-02-12 14:10:38.442  INFO 4500 --- [http-nio-8080-exec-1] com.app.controller.ImageController       : in img download
+2024-02-12 14:10:38.442  INFO 4500 --- [http-nio-8080-exec-1] com.app.controller.ImageController       : componentTypebuilding
+2024-02-12 14:10:38.442  INFO 4500 --- [http-nio-8080-exec-1] com.app.controller.ImageController       : componentId3
+2024-02-12 14:10:38.442  INFO 4500 --- [http-nio-8080-exec-10] com.app.controller.ImageController       : in img download
+2024-02-12 14:10:38.442  INFO 4500 --- [http-nio-8080-exec-8] com.app.controller.ImageController       : in img download
+2024-02-12 14:10:38.442  INFO 4500 --- [http-nio-8080-exec-10] com.app.controller.ImageController       : componentTypebuilding
+2024-02-12 14:10:38.442  INFO 4500 --- [http-nio-8080-exec-8] com.app.controller.ImageController       : componentTypebuilding
+2024-02-12 14:10:38.442  INFO 4500 --- [http-nio-8080-exec-10] com.app.controller.ImageController       : componentId4
+2024-02-12 14:10:38.442  INFO 4500 --- [http-nio-8080-exec-8] com.app.controller.ImageController       : componentId5
+2024-02-12 14:10:38.444  INFO 4500 --- [http-nio-8080-exec-5] com.app.filters.JWTRequestFilter         : in once per request filter
+2024-02-12 14:10:38.444 ERROR 4500 --- [http-nio-8080-exec-5] com.app.filters.JWTRequestFilter         : Request header DOES NOT contain a Bearer Token
+2024-02-12 14:10:38.446  INFO 4500 --- [http-nio-8080-exec-5] com.app.controller.ImageController       : in img download
+2024-02-12 14:10:38.446  INFO 4500 --- [http-nio-8080-exec-5] com.app.controller.ImageController       : componentTypebuilding
+2024-02-12 14:10:38.446  INFO 4500 --- [http-nio-8080-exec-5] com.app.controller.ImageController       : componentId6
+2024-02-12 14:10:38.451  INFO 4500 --- [http-nio-8080-exec-9] com.app.filters.JWTRequestFilter         : in once per request filter
+2024-02-12 14:10:38.452 ERROR 4500 --- [http-nio-8080-exec-9] com.app.filters.JWTRequestFilter         : Request header DOES NOT contain a Bearer Token
+2024-02-12 14:10:38.452  INFO 4500 --- [http-nio-8080-exec-7] com.app.filters.JWTRequestFilter         : in once per request filter
+2024-02-12 14:10:38.453 ERROR 4500 --- [http-nio-8080-exec-7] com.app.filters.JWTRequestFilter         : Request header DOES NOT contain a Bearer Token
+2024-02-12 14:10:38.453  INFO 4500 --- [http-nio-8080-exec-9] com.app.controller.ImageController       : in img download
+2024-02-12 14:10:38.453  INFO 4500 --- [http-nio-8080-exec-9] com.app.controller.ImageController       : componentTypebuilding
+2024-02-12 14:10:38.453  INFO 4500 --- [http-nio-8080-exec-9] com.app.controller.ImageController       : componentId8
+2024-02-12 14:10:38.454  INFO 4500 --- [http-nio-8080-exec-7] com.app.controller.ImageController       : in img download
+2024-02-12 14:10:38.454  INFO 4500 --- [http-nio-8080-exec-7] com.app.controller.ImageController       : componentTypebuilding
+2024-02-12 14:10:38.454  INFO 4500 --- [http-nio-8080-exec-7] com.app.controller.ImageController       : componentId7
+2024-02-12 14:10:38.455  INFO 4500 --- [http-nio-8080-exec-6] com.app.filters.JWTRequestFilter         : in once per request filter
+2024-02-12 14:10:38.455 ERROR 4500 --- [http-nio-8080-exec-6] com.app.filters.JWTRequestFilter         : Request header DOES NOT contain a Bearer Token
+2024-02-12 14:10:38.456  INFO 4500 --- [http-nio-8080-exec-6] com.app.controller.ImageController       : in img download
+2024-02-12 14:10:38.456  INFO 4500 --- [http-nio-8080-exec-6] com.app.controller.ImageController       : componentTypebuilding
+2024-02-12 14:10:38.456  INFO 4500 --- [http-nio-8080-exec-6] com.app.controller.ImageController       : componentId9
+2024-02-12 14:10:38.467  INFO 4500 --- [http-nio-8080-exec-4] com.app.filters.JWTRequestFilter         : in once per request filter
+2024-02-12 14:10:38.468 ERROR 4500 --- [http-nio-8080-exec-4] com.app.filters.JWTRequestFilter         : Request header DOES NOT contain a Bearer Token
+2024-02-12 14:10:38.469  INFO 4500 --- [http-nio-8080-exec-4] com.app.controller.ImageController       : in img download5
+2024-02-12 14:10:38.471  INFO 4500 --- [http-nio-8080-exec-2] com.app.filters.JWTRequestFilter         : in once per request filter
+2024-02-12 14:10:38.472 ERROR 4500 --- [http-nio-8080-exec-2] com.app.filters.JWTRequestFilter         : Request header DOES NOT contain a Bearer Token
+2024-02-12 14:10:38.474  INFO 4500 --- [http-nio-8080-exec-2] com.app.controller.ImageController       : in img download13
+2024-02-12 14:10:38.474  INFO 4500 --- [http-nio-8080-exec-3] com.app.filters.JWTRequestFilter         : in once per request filter
+2024-02-12 14:10:38.474 ERROR 4500 --- [http-nio-8080-exec-3] com.app.filters.JWTRequestFilter         : Request header DOES NOT contain a Bearer Token
+2024-02-12 14:10:38.476  INFO 4500 --- [http-nio-8080-exec-3] com.app.controller.ImageController       : in img download18
+2024-02-12 14:10:38.477  INFO 4500 --- [http-nio-8080-exec-1] com.app.filters.JWTRequestFilter         : in once per request filter
+2024-02-12 14:10:38.478 ERROR 4500 --- [http-nio-8080-exec-1] com.app.filters.JWTRequestFilter         : Request header DOES NOT contain a Bearer Token
+2024-02-12 14:10:38.481  INFO 4500 --- [http-nio-8080-exec-8] com.app.filters.JWTRequestFilter         : in once per request filter
+2024-02-12 14:10:38.481 ERROR 4500 --- [http-nio-8080-exec-8] com.app.filters.JWTRequestFilter         : Request header DOES NOT contain a Bearer Token
+2024-02-12 14:10:38.483  INFO 4500 --- [http-nio-8080-exec-1] com.app.controller.ImageController       : in img download20
+2024-02-12 14:10:38.485  INFO 4500 --- [http-nio-8080-exec-8] com.app.controller.ImageController       : in img download24
+2024-02-12 14:10:38.492  INFO 4500 --- [http-nio-8080-exec-10] com.app.filters.JWTRequestFilter         : in once per request filter
+2024-02-12 14:10:38.492 ERROR 4500 --- [http-nio-8080-exec-10] com.app.filters.JWTRequestFilter         : Request header DOES NOT contain a Bearer Token
+2024-02-12 14:10:38.493  INFO 4500 --- [http-nio-8080-exec-10] com.app.controller.ImageController       : in img download32
+2024-02-12 14:10:38.501  INFO 4500 --- [http-nio-8080-exec-5] com.app.filters.JWTRequestFilter         : in once per request filter
+2024-02-12 14:10:38.501 ERROR 4500 --- [http-nio-8080-exec-5] com.app.filters.JWTRequestFilter         : Request header DOES NOT contain a Bearer Token
+2024-02-12 14:10:38.502  INFO 4500 --- [http-nio-8080-exec-5] com.app.controller.ImageController       : in img download34
+2024-02-12 14:10:49.727  INFO 4500 --- [http-nio-8080-exec-6] com.app.filters.JWTRequestFilter         : in once per request filter
+2024-02-12 14:10:49.728 ERROR 4500 --- [http-nio-8080-exec-6] com.app.filters.JWTRequestFilter         : Request header DOES NOT contain a Bearer Token
+2024-02-12 14:10:49.729  INFO 4500 --- [http-nio-8080-exec-6] c.app.controller.SignInSignUpController  : auth token UsernamePasswordAuthenticationToken [Principal=shubham@gmail.com, Credentials=[PROTECTED], Authenticated=false, Details=null, Granted Authorities=[]]
+2024-02-12 14:10:49.849  INFO 4500 --- [http-nio-8080-exec-6] com.app.jwt_utils.JwtUtils               : generate jwt token UsernamePasswordAuthenticationToken [Principal=CustomUserDetails(user=com.app.entities.UserEntity@7fd73a1b), Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[ROLE_ADMIN, ROLE_USER, ROLE_OWNER]]
+2024-02-12 14:10:49.925  INFO 4500 --- [http-nio-8080-exec-3] com.app.filters.JWTRequestFilter         : in once per request filter
+2024-02-12 14:10:49.926  INFO 4500 --- [http-nio-8080-exec-8] com.app.filters.JWTRequestFilter         : in once per request filter
+2024-02-12 14:10:49.926 ERROR 4500 --- [http-nio-8080-exec-8] com.app.filters.JWTRequestFilter         : Request header DOES NOT contain a Bearer Token
+2024-02-12 14:10:49.927  INFO 4500 --- [http-nio-8080-exec-8] com.app.controller.BuildingController    : com.app.controller.BuildingController in getListOfBuildings
+2024-02-12 14:10:49.928  INFO 4500 --- [http-nio-8080-exec-8] com.app.service.BuildingServiceImpl      : com.app.service.BuildingServiceImpl in getAllBuildings
+2024-02-12 14:10:49.992  INFO 4500 --- [http-nio-8080-exec-9] com.app.filters.JWTRequestFilter         : in once per request filter
+2024-02-12 14:10:49.992 ERROR 4500 --- [http-nio-8080-exec-9] com.app.filters.JWTRequestFilter         : Request header DOES NOT contain a Bearer Token
+2024-02-12 14:10:49.994  INFO 4500 --- [http-nio-8080-exec-2] com.app.filters.JWTRequestFilter         : in once per request filter
+2024-02-12 14:10:49.994 ERROR 4500 --- [http-nio-8080-exec-2] com.app.filters.JWTRequestFilter         : Request header DOES NOT contain a Bearer Token
+2024-02-12 14:10:49.996  INFO 4500 --- [http-nio-8080-exec-2] com.app.controller.ImageController       : in img download
+2024-02-12 14:10:50.000  INFO 4500 --- [http-nio-8080-exec-2] com.app.controller.ImageController       : componentTypebuilding
+2024-02-12 14:10:50.001  INFO 4500 --- [http-nio-8080-exec-2] com.app.controller.ImageController       : componentId2
+2024-02-12 14:10:50.003  INFO 4500 --- [http-nio-8080-exec-9] com.app.filters.JWTRequestFilter         : in once per request filter
+2024-02-12 14:10:50.003 ERROR 4500 --- [http-nio-8080-exec-9] com.app.filters.JWTRequestFilter         : Request header DOES NOT contain a Bearer Token
+2024-02-12 14:10:50.004  INFO 4500 --- [http-nio-8080-exec-7] com.app.filters.JWTRequestFilter         : in once per request filter
+2024-02-12 14:10:50.004 ERROR 4500 --- [http-nio-8080-exec-7] com.app.filters.JWTRequestFilter         : Request header DOES NOT contain a Bearer Token
+2024-02-12 14:10:50.005  INFO 4500 --- [http-nio-8080-exec-3] com.app.controller.ImageController       : in img download
+2024-02-12 14:10:50.005  INFO 4500 --- [http-nio-8080-exec-9] com.app.controller.ImageController       : in img download
+2024-02-12 14:10:50.005  INFO 4500 --- [http-nio-8080-exec-3] com.app.controller.ImageController       : componentTypeuser
+2024-02-12 14:10:50.005  INFO 4500 --- [http-nio-8080-exec-9] com.app.controller.ImageController       : componentTypebuilding
+2024-02-12 14:10:50.005  INFO 4500 --- [http-nio-8080-exec-3] com.app.controller.ImageController       : componentId6
+2024-02-12 14:10:50.005  INFO 4500 --- [http-nio-8080-exec-9] com.app.controller.ImageController       : componentId4
+2024-02-12 14:10:50.006  INFO 4500 --- [http-nio-8080-exec-10] com.app.filters.JWTRequestFilter         : in once per request filter
+2024-02-12 14:10:50.006 ERROR 4500 --- [http-nio-8080-exec-10] com.app.filters.JWTRequestFilter         : Request header DOES NOT contain a Bearer Token
+2024-02-12 14:10:50.007  INFO 4500 --- [http-nio-8080-exec-10] com.app.controller.ImageController       : in img download
+2024-02-12 14:10:50.007  INFO 4500 --- [http-nio-8080-exec-10] com.app.controller.ImageController       : componentTypebuilding
+2024-02-12 14:10:50.007  INFO 4500 --- [http-nio-8080-exec-10] com.app.controller.ImageController       : componentId5
+2024-02-12 14:10:50.010  INFO 4500 --- [http-nio-8080-exec-4] com.app.filters.JWTRequestFilter         : in once per request filter
+2024-02-12 14:10:50.011 ERROR 4500 --- [http-nio-8080-exec-4] com.app.filters.JWTRequestFilter         : Request header DOES NOT contain a Bearer Token
+2024-02-12 14:10:50.011  INFO 4500 --- [http-nio-8080-exec-7] com.app.controller.ImageController       : in img download
+2024-02-12 14:10:50.011  INFO 4500 --- [http-nio-8080-exec-7] com.app.controller.ImageController       : componentTypebuilding
+2024-02-12 14:10:50.012  INFO 4500 --- [http-nio-8080-exec-7] com.app.controller.ImageController       : componentId3
+2024-02-12 14:10:50.016  INFO 4500 --- [http-nio-8080-exec-6] com.app.filters.JWTRequestFilter         : in once per request filter
+2024-02-12 14:10:50.017 ERROR 4500 --- [http-nio-8080-exec-6] com.app.filters.JWTRequestFilter         : Request header DOES NOT contain a Bearer Token
+2024-02-12 14:10:50.017  INFO 4500 --- [http-nio-8080-exec-4] com.app.controller.ImageController       : in img download
+2024-02-12 14:10:50.017  INFO 4500 --- [http-nio-8080-exec-4] com.app.controller.ImageController       : componentTypebuilding
+2024-02-12 14:10:50.017  INFO 4500 --- [http-nio-8080-exec-4] com.app.controller.ImageController       : componentId6
+2024-02-12 14:10:50.018  INFO 4500 --- [http-nio-8080-exec-6] com.app.controller.ImageController       : in img download
+2024-02-12 14:10:50.018  INFO 4500 --- [http-nio-8080-exec-6] com.app.controller.ImageController       : componentTypebuilding
+2024-02-12 14:10:50.018  INFO 4500 --- [http-nio-8080-exec-6] com.app.controller.ImageController       : componentId7
+2024-02-12 14:10:50.023  INFO 4500 --- [http-nio-8080-exec-7] com.app.filters.JWTRequestFilter         : in once per request filter
+2024-02-12 14:10:50.023 ERROR 4500 --- [http-nio-8080-exec-7] com.app.filters.JWTRequestFilter         : Request header DOES NOT contain a Bearer Token
+2024-02-12 14:10:50.024  INFO 4500 --- [http-nio-8080-exec-7] com.app.controller.ImageController       : in img download
+2024-02-12 14:10:50.024  INFO 4500 --- [http-nio-8080-exec-7] com.app.controller.ImageController       : componentTypebuilding
+2024-02-12 14:10:50.024  INFO 4500 --- [http-nio-8080-exec-7] com.app.controller.ImageController       : componentId9
+2024-02-12 14:10:50.027  INFO 4500 --- [http-nio-8080-exec-1] com.app.filters.JWTRequestFilter         : in once per request filter
+2024-02-12 14:10:50.027 ERROR 4500 --- [http-nio-8080-exec-1] com.app.filters.JWTRequestFilter         : Request header DOES NOT contain a Bearer Token
+2024-02-12 14:10:50.029  INFO 4500 --- [http-nio-8080-exec-1] com.app.controller.ImageController       : in img download
+2024-02-12 14:10:50.029  INFO 4500 --- [http-nio-8080-exec-1] com.app.controller.ImageController       : componentTypebuilding
+2024-02-12 14:10:50.029  INFO 4500 --- [http-nio-8080-exec-1] com.app.controller.ImageController       : componentId8
+2024-02-12 14:10:50.036  INFO 4500 --- [http-nio-8080-exec-5] com.app.filters.JWTRequestFilter         : in once per request filter
+2024-02-12 14:10:50.036 ERROR 4500 --- [http-nio-8080-exec-5] com.app.filters.JWTRequestFilter         : Request header DOES NOT contain a Bearer Token
+2024-02-12 14:10:50.037  INFO 4500 --- [http-nio-8080-exec-5] com.app.controller.ImageController       : in img download5
+2024-02-12 14:10:50.039  INFO 4500 --- [http-nio-8080-exec-1] com.app.filters.JWTRequestFilter         : in once per request filter
+2024-02-12 14:10:50.039 ERROR 4500 --- [http-nio-8080-exec-1] com.app.filters.JWTRequestFilter         : Request header DOES NOT contain a Bearer Token
+2024-02-12 14:10:50.041  INFO 4500 --- [http-nio-8080-exec-1] com.app.controller.ImageController       : in img download20
+2024-02-12 14:10:50.055  INFO 4500 --- [http-nio-8080-exec-9] com.app.filters.JWTRequestFilter         : in once per request filter
+2024-02-12 14:10:50.055 ERROR 4500 --- [http-nio-8080-exec-9] com.app.filters.JWTRequestFilter         : Request header DOES NOT contain a Bearer Token
+2024-02-12 14:10:50.057  INFO 4500 --- [http-nio-8080-exec-10] com.app.filters.JWTRequestFilter         : in once per request filter
+2024-02-12 14:10:50.057 ERROR 4500 --- [http-nio-8080-exec-10] com.app.filters.JWTRequestFilter         : Request header DOES NOT contain a Bearer Token
+2024-02-12 14:10:50.057  INFO 4500 --- [http-nio-8080-exec-9] com.app.controller.ImageController       : in img download28
+2024-02-12 14:10:50.058  INFO 4500 --- [http-nio-8080-exec-10] com.app.controller.ImageController       : in img download18
+2024-02-12 14:10:50.058  INFO 4500 --- [http-nio-8080-exec-3] com.app.filters.JWTRequestFilter         : in once per request filter
+2024-02-12 14:10:50.059  INFO 4500 --- [http-nio-8080-exec-8] com.app.filters.JWTRequestFilter         : in once per request filter
+2024-02-12 14:10:50.059  INFO 4500 --- [http-nio-8080-exec-4] com.app.filters.JWTRequestFilter         : in once per request filter
+2024-02-12 14:10:50.059 ERROR 4500 --- [http-nio-8080-exec-4] com.app.filters.JWTRequestFilter         : Request header DOES NOT contain a Bearer Token
+2024-02-12 14:10:50.059 ERROR 4500 --- [http-nio-8080-exec-8] com.app.filters.JWTRequestFilter         : Request header DOES NOT contain a Bearer Token
+2024-02-12 14:10:50.060  INFO 4500 --- [http-nio-8080-exec-6] com.app.filters.JWTRequestFilter         : in once per request filter
+2024-02-12 14:10:50.060  INFO 4500 --- [http-nio-8080-exec-4] com.app.controller.ImageController       : in img download24
+2024-02-12 14:10:50.060 ERROR 4500 --- [http-nio-8080-exec-6] com.app.filters.JWTRequestFilter         : Request header DOES NOT contain a Bearer Token
+2024-02-12 14:10:50.060  INFO 4500 --- [http-nio-8080-exec-8] com.app.controller.ImageController       : in img download13
+2024-02-12 14:10:50.062  INFO 4500 --- [http-nio-8080-exec-6] com.app.controller.ImageController       : in img download32
+2024-02-12 14:10:50.071  INFO 4500 --- [http-nio-8080-exec-7] com.app.filters.JWTRequestFilter         : in once per request filter
+2024-02-12 14:10:50.072 ERROR 4500 --- [http-nio-8080-exec-7] com.app.filters.JWTRequestFilter         : Request header DOES NOT contain a Bearer Token
+2024-02-12 14:10:50.073  INFO 4500 --- [http-nio-8080-exec-7] com.app.controller.ImageController       : in img download34
+2024-02-12 14:10:50.080  INFO 4500 --- [http-nio-8080-exec-3] com.app.controller.ImageController       : in img download
+2024-02-12 14:10:50.080  INFO 4500 --- [http-nio-8080-exec-3] com.app.controller.ImageController       : componentTypeuser
+2024-02-12 14:10:50.080  INFO 4500 --- [http-nio-8080-exec-3] com.app.controller.ImageController       : componentId6
+2024-02-12 14:10:53.604  INFO 4500 --- [http-nio-8080-exec-2] com.app.filters.JWTRequestFilter         : in once per request filter
+2024-02-12 14:10:53.605 ERROR 4500 --- [http-nio-8080-exec-2] com.app.filters.JWTRequestFilter         : Request header DOES NOT contain a Bearer Token
+2024-02-12 14:10:53.605  INFO 4500 --- [http-nio-8080-exec-2] com.app.controller.BuildingController    : com.app.controller.BuildingController in getListOfBuildings
+2024-02-12 14:10:53.606  INFO 4500 --- [http-nio-8080-exec-2] com.app.service.BuildingServiceImpl      : com.app.service.BuildingServiceImpl in getAllBuildings
+2024-02-12 14:11:18.652  INFO 4500 --- [http-nio-8080-exec-3] com.app.filters.JWTRequestFilter         : in once per request filter
+2024-02-12 14:11:18.666  INFO 4500 --- [http-nio-8080-exec-3] com.app.controller.BuildingController    : com.app.controller.BuildingController in addBuildingBuilding(id=null, name=ddsd, buildingAddr=Address(id=null, addrl1=asdasdasd, addrl2=asdasdsd, city=asdads, state=asdasd, country=asdasd, zipCode=123123), owner=null)
+2024-02-12 14:11:18.667  INFO 4500 --- [http-nio-8080-exec-3] com.app.service.BuildingServiceImpl      : com.app.service.BuildingServiceImpl in addBuilding Building(id=null, name=ddsd, buildingAddr=Address(id=null, addrl1=asdasdasd, addrl2=asdasdsd, city=asdads, state=asdasd, country=asdasd, zipCode=123123), owner=null)
+2024-02-12 14:11:18.687  INFO 4500 --- [http-nio-8080-exec-3] com.app.service.BuildingServiceImpl      : com.app.service.BuildingServiceImpl got address and building :AddressEntity(addrl1=asdasdasd, addrl2=asdasdsd, city=asdads, state=asdasd, country=asdasd, zipCode=123123) and BuildingEntity(name=ddsd, buildingAddr=AddressEntity(addrl1=asdasdasd, addrl2=asdasdsd, city=asdads, state=asdasd, country=asdasd, zipCode=123123), owner=null)
+2024-02-12 14:11:18.687  INFO 4500 --- [http-nio-8080-exec-3] com.app.service.BuildingServiceImpl      : com.app.service.BuildingServiceImpl adding building to database
+2024-02-12 14:11:21.738  INFO 4500 --- [http-nio-8080-exec-7] com.app.filters.JWTRequestFilter         : in once per request filter
+2024-02-12 14:11:21.738 ERROR 4500 --- [http-nio-8080-exec-7] com.app.filters.JWTRequestFilter         : Request header DOES NOT contain a Bearer Token
+2024-02-12 14:11:21.740  INFO 4500 --- [http-nio-8080-exec-7] com.app.controller.BuildingController    : com.app.controller.BuildingController in getListOfBuildings
+2024-02-12 14:11:21.742  INFO 4500 --- [http-nio-8080-exec-7] com.app.service.BuildingServiceImpl      : com.app.service.BuildingServiceImpl in getAllBuildings
+2024-02-12 14:12:32.908  INFO 4500 --- [http-nio-8080-exec-6] com.app.filters.JWTRequestFilter         : in once per request filter
+2024-02-12 14:12:32.908  INFO 4500 --- [http-nio-8080-exec-1] com.app.filters.JWTRequestFilter         : in once per request filter
+2024-02-12 14:12:32.909 ERROR 4500 --- [http-nio-8080-exec-6] com.app.filters.JWTRequestFilter         : Request header DOES NOT contain a Bearer Token
+2024-02-12 14:12:32.909 ERROR 4500 --- [http-nio-8080-exec-1] com.app.filters.JWTRequestFilter         : Request header DOES NOT contain a Bearer Token
+2024-02-12 14:12:32.910  INFO 4500 --- [http-nio-8080-exec-6] com.app.controller.ImageController       : in img download
+2024-02-12 14:12:32.910  INFO 4500 --- [http-nio-8080-exec-6] com.app.controller.ImageController       : componentTypebuilding
+2024-02-12 14:12:32.910  INFO 4500 --- [http-nio-8080-exec-6] com.app.controller.ImageController       : componentId10
+2024-02-12 14:12:42.724  INFO 4500 --- [http-nio-8080-exec-9] com.app.filters.JWTRequestFilter         : in once per request filter
+2024-02-12 14:12:42.742  INFO 4500 --- [http-nio-8080-exec-9] com.app.controller.RoomController        : building id is 10
+2024-02-12 14:12:42.743  INFO 4500 --- [http-nio-8080-exec-9] com.app.controller.RoomController        : Room is Room(id=null, rentPerDay=123.0, building=null)
+2024-02-12 14:12:46.181  INFO 4500 --- [http-nio-8080-exec-3] com.app.filters.JWTRequestFilter         : in once per request filter
+2024-02-12 14:12:46.181 ERROR 4500 --- [http-nio-8080-exec-3] com.app.filters.JWTRequestFilter         : Request header DOES NOT contain a Bearer Token
+2024-02-12 14:12:46.181  INFO 4500 --- [http-nio-8080-exec-7] com.app.filters.JWTRequestFilter         : in once per request filter
+2024-02-12 14:12:46.181 ERROR 4500 --- [http-nio-8080-exec-7] com.app.filters.JWTRequestFilter         : Request header DOES NOT contain a Bearer Token
+2024-02-12 14:12:46.182  INFO 4500 --- [http-nio-8080-exec-7] com.app.controller.ImageController       : in img download
+2024-02-12 14:12:46.182  INFO 4500 --- [http-nio-8080-exec-7] com.app.controller.ImageController       : componentTypebuilding
+2024-02-12 14:12:46.182  INFO 4500 --- [http-nio-8080-exec-7] com.app.controller.ImageController       : componentId10
+2024-02-12 14:13:18.251  INFO 4500 --- [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-12 14:13:18.254  INFO 4500 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-02-12 14:13:18.265  INFO 4500 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-02-12 14:13:18.417  INFO 4500 --- [restartedMain] com.app.Application                      : Starting Application using Java 17.0.10 on DESKTOP-GPMVTT8 with PID 4500 (C:\Users\sahil\Desktop\CDAC\PROJECT\FINAL\EmployeeDeptExam\target\classes started by sahil in C:\Users\sahil\Desktop\CDAC\PROJECT\FINAL\EmployeeDeptExam)
+2024-02-12 14:13:18.418  INFO 4500 --- [restartedMain] com.app.Application                      : No active profile set, falling back to 1 default profile: "default"
+2024-02-12 14:13:18.921  INFO 4500 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-12 14:13:18.988  INFO 4500 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 66 ms. Found 8 JPA repository interfaces.
+2024-02-12 14:13:19.316  INFO 4500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-02-12 14:13:19.317  INFO 4500 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-12 14:13:19.317  INFO 4500 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2024-02-12 14:13:19.356  INFO 4500 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-12 14:13:19.356  INFO 4500 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 933 ms
+2024-02-12 14:13:19.427  INFO 4500 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-12 14:13:19.437  INFO 4500 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2024-02-12 14:13:19.457  INFO 4500 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2024-02-12 14:13:19.457  INFO 4500 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-02-12 14:13:19.656  INFO 4500 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-02-12 14:13:19.656  INFO 4500 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-12 14:13:20.018  INFO 4500 --- [restartedMain] com.app.service.ImageServiceImpl         : folder alrdy exists !
+2024-02-12 14:13:20.189  INFO 4500 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@57683890, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@74962711, org.springframework.security.web.context.SecurityContextPersistenceFilter@229b3527, org.springframework.security.web.header.HeaderWriterFilter@3af550ee, org.springframework.web.filter.CorsFilter@5ed19c00, org.springframework.security.web.authentication.logout.LogoutFilter@28cf50b, com.app.filters.JWTRequestFilter@27695ac0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@60ecd7b3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@708e8960, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2f029031, org.springframework.security.web.session.SessionManagementFilter@234550f8, org.springframework.security.web.access.ExceptionTranslationFilter@4104b73b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3708d54e]
+2024-02-12 14:13:20.355  INFO 4500 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-02-12 14:13:20.378  INFO 4500 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2024-02-12 14:13:20.384  INFO 4500 --- [restartedMain] com.app.Application                      : Started Application in 2.043 seconds (JVM running for 337.996)
+2024-02-12 14:13:20.386  INFO 4500 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-02-12 14:15:46.014  INFO 4500 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-12 14:15:46.014  INFO 4500 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-12 14:15:46.015  INFO 4500 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-02-12 14:15:46.016  INFO 4500 --- [http-nio-8080-exec-1] com.app.filters.JWTRequestFilter         : in once per request filter
+2024-02-12 14:15:46.045  INFO 4500 --- [http-nio-8080-exec-1] com.app.controller.RoomController        : building id is 10
+2024-02-12 14:15:46.045  INFO 4500 --- [http-nio-8080-exec-1] com.app.controller.RoomController        : Room is Room(id=null, rentPerDay=234.0, building=null)
+2024-02-12 14:17:31.078  INFO 4500 --- [http-nio-8080-exec-2] com.app.filters.JWTRequestFilter         : in once per request filter
+2024-02-12 14:17:31.079  INFO 4500 --- [http-nio-8080-exec-3] com.app.filters.JWTRequestFilter         : in once per request filter
+2024-02-12 14:17:31.079 ERROR 4500 --- [http-nio-8080-exec-2] com.app.filters.JWTRequestFilter         : Request header DOES NOT contain a Bearer Token
+2024-02-12 14:17:31.079 ERROR 4500 --- [http-nio-8080-exec-3] com.app.filters.JWTRequestFilter         : Request header DOES NOT contain a Bearer Token
+2024-02-12 14:17:31.080  INFO 4500 --- [http-nio-8080-exec-3] com.app.controller.ImageController       : in img download
+2024-02-12 14:17:31.081  INFO 4500 --- [http-nio-8080-exec-3] com.app.controller.ImageController       : componentTypebuilding
+2024-02-12 14:17:31.081  INFO 4500 --- [http-nio-8080-exec-3] com.app.controller.ImageController       : componentId10
